@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Wondrous Items</name>
+		<update version="0.1.0">
+			<file name="homebrew-items.xml" url="https://raw.githubusercontent.com/chasederringer/homebrew-items-practice/discord.index" />
+		</update>
+    </info>
+    <element name="Haven Bag" type="Magic Item" source="Mr. Waters" id="ID_MRWATERS_HOMEBREW_MAGIC_ITEM_HAVEN_BAG">
+		<description>
+			<p>This bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth. If the bag holds fewer than 20 items, items within the bag can be accessed freely. Once the bag holds 20 items, the items must be organized to reliably retrieve an item from inside. They can be organized as part of a long rest. If the items in the haven bag have not been organized, it can hold a maximum of 20 items.</p>
+            <p>If the bag holds 20 items and they have not been organized, they are particularly difficult to retrieve. Retrieving an unorganized item requires an action, and they are pulled from the bag at random. Roll a d20 to determine which items appears out of the bag, where a 20 retrieves the most recently stored item and a 1, the first stored item. Once the items inside organized, the bag can hold any number of items, and items can be retrieved reliably as a free action. Items remain organized even after being removed and replaced.</p>
+			<p>If the bag is pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again. If organized, the items remain organized.</p>
+			<p>Placing a <em>haven bag</em> inside an extradimensional space created by a <em>handy haversack</em>, <em>portable hole</em>, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">20,000</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="stash" lb="5000" weightless="true">true</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    </element>
+</elements>
